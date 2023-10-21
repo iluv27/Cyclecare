@@ -1,26 +1,44 @@
 {
   "project_info": {
-    "project_number": "433434351889",
-    "project_id": "cyclecare-d4209",
-    "storage_bucket": "cyclecare-d4209.appspot.com"
+    "project_number": "486456195304",
+    "project_id": "cyclecare-201ef",
+    "storage_bucket": "cyclecare-201ef.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:433434351889:android:8c05c8672e73477643d4b0",
+        "mobilesdk_app_id": "1:486456195304:android:c9bcf2f0e904000833715d",
         "android_client_info": {
           "package_name": "com.oghoghoehiedu.cyclecare"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "486456195304-aqiqi1t6l8k1tkqffhc47jku9tgheu03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oghoghoehiedu.cyclecare",
+            "certificate_hash": "6823e3f5f1ad2e42eff18afb936352208102666c"
+          }
+        },
+        {
+          "client_id": "486456195304-43odklsqk1t67hv7tdphcl9e6pam3fog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyBqWExFnnOTi2oUWSrSBTF2sWzG4-4b-qU"
+          "current_key": "AIzaSyCpzxP0FLRPUm8jp9F8D8izuHz2gqBxQyc"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486456195304-43odklsqk1t67hv7tdphcl9e6pam3fog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

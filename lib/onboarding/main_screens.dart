@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../theme.dart';
 import 'decorations.dart';
 import 'screen_widget.dart';
+import 'package:cyclecare/backend/google_signin.dart';
+import 'package:cyclecare/ui/home_screen.dart';
 
 class OnBoardingScreenOne extends StatefulWidget {
   const OnBoardingScreenOne({super.key});
@@ -89,7 +91,18 @@ class _OnBoardingScreenOneState extends State<OnBoardingScreenOne> {
                 padding: const EdgeInsets.all(40),
                 child: _currentPage == 2
                     ? ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          signUpWithGoogle();
+                          if (currentUser != null) {
+                            Navigator.pushReplacement(
+                              context,
+                              MaterialPageRoute<void>(
+                                builder: (BuildContext context) =>
+                                    const HomeScreen(),
+                              ),
+                            );
+                          }
+                        },
                         style: ElevatedButton.styleFrom(
                           elevation: 0,
                           minimumSize:
