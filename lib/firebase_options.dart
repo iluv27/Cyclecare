@@ -67,8 +67,10 @@ class DefaultFirebaseOptions {
     messagingSenderId: '486456195304',
     projectId: 'cyclecare-201ef',
     storageBucket: 'cyclecare-201ef.appspot.com',
-    androidClientId: '486456195304-aqiqi1t6l8k1tkqffhc47jku9tgheu03.apps.googleusercontent.com',
-    iosClientId: '486456195304-ufecdieutjb958lhscn70vdejskqur0e.apps.googleusercontent.com',
+    androidClientId:
+        '486456195304-aqiqi1t6l8k1tkqffhc47jku9tgheu03.apps.googleusercontent.com',
+    iosClientId:
+        '486456195304-ufecdieutjb958lhscn70vdejskqur0e.apps.googleusercontent.com',
     iosBundleId: 'com.example.cyclecare',
   );
 
@@ -78,8 +80,10 @@ class DefaultFirebaseOptions {
     messagingSenderId: '486456195304',
     projectId: 'cyclecare-201ef',
     storageBucket: 'cyclecare-201ef.appspot.com',
-    androidClientId: '486456195304-aqiqi1t6l8k1tkqffhc47jku9tgheu03.apps.googleusercontent.com',
-    iosClientId: '486456195304-1jm24u3dcjduc1cqh53vemfgmq1iqqvg.apps.googleusercontent.com',
+    androidClientId:
+        '486456195304-aqiqi1t6l8k1tkqffhc47jku9tgheu03.apps.googleusercontent.com',
+    iosClientId:
+        '486456195304-1jm24u3dcjduc1cqh53vemfgmq1iqqvg.apps.googleusercontent.com',
     iosBundleId: 'com.example.cyclecare.RunnerTests',
   );
 }

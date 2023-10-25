@@ -93,10 +93,11 @@ class _OnBoardingScreenOneState extends State<OnBoardingScreenOne> {
                     ? ElevatedButton(
                         onPressed: () {
                           signUpWithGoogle();
+                          debugPrint('screen Name: $displayName');
                           if (currentUser != null) {
                             Navigator.pushReplacement(
                               context,
-                              MaterialPageRoute<void>(
+                              MaterialPageRoute(
                                 builder: (BuildContext context) =>
                                     const HomeScreen(),
                               ),

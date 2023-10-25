@@ -9,7 +9,7 @@
 	<key>ANDROID_CLIENT_ID</key>
 	<string>486456195304-aqiqi1t6l8k1tkqffhc47jku9tgheu03.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyB-Aiyo87VjceBYAAy-jv6-azhKUpPPmys</string>
+	<string>dotenv.env['FIREBASE_API_KEY']</string>
 	<key>GCM_SENDER_ID</key>
 	<string>486456195304</string>
 	<key>PLIST_VERSION</key>
