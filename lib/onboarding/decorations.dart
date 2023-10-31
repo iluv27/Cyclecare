@@ -8,27 +8,24 @@ class BlurEffect extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Container(
-        width: 80,
-        height: 80,
-        decoration: BoxDecoration(
-          color: const Color(0xBAEBECFF),
-          borderRadius: BorderRadius.circular(2000),
-          border: Border.all(width: 0),
-          boxShadow: const [
-            BoxShadow(
-              color: Color.fromRGBO(236, 237, 255, 0.637),
-              spreadRadius: 30,
-            ),
-          ],
+      child: ImageFiltered(
+        imageFilter: ImageFilter.blur(
+          sigmaX: 60,
+          sigmaY: 60,
         ),
-        child: BackdropFilter(
-          filter: ImageFilter.blur(
-            sigmaX: 80,
-            sigmaY: 80,
-          ),
-          child: Container(
-            color: Colors.transparent,
+        child: Container(
+          width: 80,
+          height: 80,
+          decoration: BoxDecoration(
+            color: const Color.fromARGB(157, 235, 236, 255),
+            borderRadius: BorderRadius.circular(2000),
+            border: Border.all(width: 0),
+            boxShadow: const [
+              BoxShadow(
+                color: Color.fromRGBO(236, 237, 255, 0.637),
+                spreadRadius: 30,
+              ),
+            ],
           ),
         ),
       ),
