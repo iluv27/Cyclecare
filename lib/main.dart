@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'theme.dart';
-import 'onboarding/main_screens.dart';
+// import 'onboarding/main_screens.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
@@ -13,7 +13,11 @@ Future<void> main(List<String> args) async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
   await dotenv.load(fileName: ".env");
-  initializeDateFormatting().then((_) => runApp(const MyApp(),),);
+  initializeDateFormatting().then(
+    (_) => runApp(
+      const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {

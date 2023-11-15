@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         style: TextStyle(
                             fontSize: 12,
                             color: currentScreen.runtimeType == CalenderScreen
-                                ? AppColors.primaryColor
+                                ? const Color.fromARGB(255, 255, 23, 65)
                                 : Colors.white),
                       ),
                     )
@@ -86,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   style: TextStyle(
                     fontSize: 12,
                     color: currentScreen.runtimeType == PeriodFormScreen
-                        ? AppColors.primaryColor
+                        ? const Color.fromARGB(255, 255, 23, 65)
                         : Colors.white,
                   ),
                 ),
@@ -117,7 +117,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         style: TextStyle(
                             fontSize: 12,
                             color: currentScreen.runtimeType == DetailsScreen
-                                ? AppColors.primaryColor
+                                ? const Color.fromARGB(255, 255, 23, 65)
                                 : Colors.white),
                       ),
                     )
